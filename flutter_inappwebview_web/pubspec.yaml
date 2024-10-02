@@ -18,8 +18,11 @@ environment:
   flutter: ">=3.0.0 <3.3.0"
 
 dependencies:
+
   flutter_inappwebview_platform_interface:
-    path: ../../../GitHub/flutter_inappwebview/flutter_inappwebview_platform_interface
+    git:
+      url: https://github.com/quatenusdev/flutter_inappwebview
+      path: flutter_inappwebview_platform_interface
   flutter:
     sdk: flutter
   flutter_web_plugins:
