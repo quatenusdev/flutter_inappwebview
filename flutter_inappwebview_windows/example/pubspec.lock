@@ -86,9 +86,11 @@ packages:
   flutter_inappwebview_platform_interface:
     dependency: transitive
     description:
-      path: "../../flutter_inappwebview_platform_interface"
-      relative: true
-    source: path
+      path: flutter_inappwebview_platform_interface
+      ref: HEAD
+      resolved-ref: ff5b438162cba9efb5d48d456df983ae6f8877d6
+      url: "https://github.com/quatenusdev/flutter_inappwebview"
+    source: git
     version: "1.3.0"
   flutter_inappwebview_windows:
     dependency: "direct main"
